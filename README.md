@@ -10,6 +10,7 @@ Provides a Ruby module to access the CampBX API.
   cbx = CampBX::API.new
   # Optionally CampBX::API.new('user','pass')
   # if you wish to use endpoints that require authentication
+  ```
 ### Get Ticker Data
   Requests are rate-limited to a maximum of one per 500ms.
   ```Ruby
