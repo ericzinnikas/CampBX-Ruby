@@ -71,14 +71,14 @@ module CampBX
       end
 
       # debug # need to test w/valid credentials
-      puts "Sending request to #{uri}"
-      puts "Post Data: #{post_data}"
+      #puts "Sending request to #{uri}"
+      #puts "Post Data: #{post_data}"
 
       # CampBX API: max 1 request per 500ms
       delta = Time.now - @@last
-      puts delta*1000
+      #puts delta*1000
       if delta*1000 <= 500 then
-        puts "sleeping! for #{0.5 - delta}"
+        #puts "sleeping! for #{0.5 - delta}"
         sleep(0.5 - delta)
       end
 
