@@ -23,7 +23,7 @@ Each method returns a Hash with JSON data from the API. Requests are rate-limite
   ```Ruby
   cbx.my_funds # Credentials provided upon initialization are included
 
-  # will update w/test info once my API access is approved
+  {"Total USD"=>"100.00", "Total BTC"=>"2.501", "Liquid USD"=>"0.00", "Liquid BTC"=>"2.501", "Margin Account USD"=>"0.00", "Margin Account BTC"=>"0.00000000"}
   ```
 ### Send BTC
   ```Ruby
